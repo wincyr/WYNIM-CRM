@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Country;
+use App\Models\Program;
 
-class CountriesController extends Controller
+class ProgramController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,9 +13,9 @@ class CountriesController extends Controller
     public function index()
     {
         //
-        $countries = Country::all();
-        return response()->json($countries);
-        
+        $programs = Program::all();
+        return response()->json($programs);
+
     }
 
     /**
@@ -24,7 +24,7 @@ class CountriesController extends Controller
     public function create()
     {
         //
-        return response()->json(Country::all());
+        return response()->json(Program::all());
 
     }
 
@@ -34,8 +34,8 @@ class CountriesController extends Controller
     public function store(Request $request)
     {
         //
-        Country::create($request->all());
-        return response()->json("Country created successfully");
+        Program::create($request->all());
+        return response()->json("Program created successfully");
 
     }
 
@@ -45,8 +45,8 @@ class CountriesController extends Controller
     public function show(string $id)
     {
         //
-        $country = Country::find($id);
-        return response()->json($country);
+        $program = Program::find($id);
+        return response()->json($program);
 
     }
 
@@ -56,8 +56,8 @@ class CountriesController extends Controller
     public function edit(string $id)
     {
         //
-        $country = Country::find($id);
-        return response()->json($country);
+        $program = Program::find($id);
+        return response()->json($program);
 
     }
 
@@ -67,9 +67,10 @@ class CountriesController extends Controller
     public function update(Request $request, string $id)
     {
         //
-        $country = Country::find($id);
-        $country->update($request->all());
-        return response()->json("Country updated successfully");
+        $program = Program::find($id);
+        $program->update($request->all());
+        return response()->json("Program updated successfully");
+
     }
 
     /**
@@ -78,8 +79,9 @@ class CountriesController extends Controller
     public function destroy(string $id)
     {
         //
-        $country = Country::find($id);
-        $country->delete();
-        return response()->json("Country deleted successfully");
+        $program = Program::find($id);
+        $program->delete();
+        return response()->json("Program deleted successfully");
+        
     }
 }

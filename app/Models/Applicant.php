@@ -10,16 +10,20 @@ class Applicant extends Model
     use HasFactory;
 
     protected $fillable = [
-        'ApplicationID',
         'ApplicationDate',
         'Status',
         'FirstName',
+        'MiddleName',
         'LastName',
+        'Birthday',
+        'Nationality',
+        'AcademicBackground',
         'PhoneNumber',
         'Email',
+        'Gender',
         'ProgramOfInterest',
+        'SchoolOfInterest',
         'CountryOfInterest',
-        'AcademicBackground',
-        'LanguageProficiency',
+        'LanguageProficiency'
     ] ;
 }

@@ -11,8 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('applicants', function (Blueprint $table) {
-            $table->string('language_proficiency')->nullable();
+        Schema::table('countries', function (Blueprint $table) {
+            //
+            Schema::table('countries', function (Blueprint $table) {
+                $table->dropColumn('name');
+            });
         });
     }
 
@@ -21,8 +24,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('applicants', function (Blueprint $table) {
-            $table->dropColumn('language_proficiency');
+        Schema::table('countries', function (Blueprint $table) {
+            //
         });
     }
 };

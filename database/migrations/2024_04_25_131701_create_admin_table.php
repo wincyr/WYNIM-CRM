@@ -11,18 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('applicants', function (Blueprint $table) {
+        Schema::create('admin', function (Blueprint $table) {
             $table->id();
-            $table->string('ApplicationDate');
-            $table->string('Status');
             $table->string('FirstName');
-            $table->string('MiddleName')->nullable();
             $table->string('LastName');
-            $table->string('PhoneNumber')->nullable();
+            $table->string('UserName');
             $table->string('Email')->unique();
-            $table->string('ProgramOfInterest');
-            $table->string('CountryOfInterest');
-            $table->string('AcademicBackground');
+            $table->string('Password');
             $table->timestamps();
         });
     }
@@ -32,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('applicants');
+        Schema::dropIfExists('admin');
     }
 };
