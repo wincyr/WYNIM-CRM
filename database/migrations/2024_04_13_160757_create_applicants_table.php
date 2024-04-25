@@ -13,9 +13,15 @@ return new class extends Migration
     {
         Schema::create('applicants', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('phone')->nullable();
+            $table->string('ApplicationDate');
+            $table->string('Status');
+            $table->string('FirstName');
+            $table->string('LastName');
+            $table->string('PhoneNumber')->nullable();
+            $table->string('Email')->unique();
+            $table->string('ProgramOfInterest');
+            $table->string('CountryOfInterest');
+            $table->string('AcademicBackground');
             $table->timestamps();
         });
     }

@@ -16,6 +16,7 @@ class Applicant extends Model
         'FirstName',
         'LastName',
         'PhoneNumber',
+        'Email',
         'ProgramOfInterest',
         'CountryOfInterest',
         'AcademicBackground',

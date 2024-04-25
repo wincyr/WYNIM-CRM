@@ -14,7 +14,7 @@ class AdminController extends Controller
     {
         //  show a list of admins with pagination in json
         $admins = Admin::all();
-        return view('admins.index', compact('admins'));
+        return response()->json($admins);
     }
 
     /**
