@@ -3,6 +3,7 @@ import Heading from '../ui/Heading'
 import Cards from '../ui/Cards'
 import Charts from '../ui/Charts'
 import TableData from '../ui/TableData'
+import React from 'react'
 
 function Dashboard() {
   return (

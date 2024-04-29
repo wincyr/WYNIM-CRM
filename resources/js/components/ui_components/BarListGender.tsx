@@ -1,4 +1,5 @@
 import { BarList } from '@tremor/react';
+import React from 'react'
 
 const datahero = [
   { name: 'Male', value: 456 },

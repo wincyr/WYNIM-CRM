@@ -1,6 +1,7 @@
 import { UserRoundPlus } from 'lucide-react';
 import { X } from 'lucide-react';
 import RegisterCardForm from './RegisterCardForm';
+import React from 'react'
 
 function AddAnAdmin() {
     return (

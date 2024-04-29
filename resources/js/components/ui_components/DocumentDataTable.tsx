@@ -10,6 +10,7 @@ import {
 } from '@tremor/react';
 import { DeleteData } from './DeleteData';
 import { EditData } from './EditData';
+import React from 'react'
 
 const dataDocu = [
     {

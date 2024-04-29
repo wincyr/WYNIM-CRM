@@ -1,4 +1,5 @@
 import RegisterCardForm from '../ui_components/RegisterCardForm'
+import React from 'react'
 
 function Register() {
   return (

@@ -9,6 +9,7 @@ import {
   TableHeaderCell,
   TableRow,
 } from '@tremor/react';
+import React from 'react'
 
 const data = [
   {

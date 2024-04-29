@@ -1,4 +1,5 @@
 import { BarChart } from '@tremor/react';
+import React from 'react'
 
 const chartdata = [
   {

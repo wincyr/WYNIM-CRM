@@ -1,5 +1,6 @@
 import { Flame } from 'lucide-react';
 import { Info } from 'lucide-react';
+import React from 'react'
 
 function InfoCards() {
     return (

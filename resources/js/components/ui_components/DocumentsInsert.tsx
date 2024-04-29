@@ -1,5 +1,6 @@
 import { TextInput } from '@tremor/react';
 import { useState } from 'react';
+import React from 'react'
 
 function DocumentsInsert() {
     const [fullName, setFullName] = useState('');

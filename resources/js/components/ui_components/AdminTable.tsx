@@ -10,6 +10,7 @@ import {
 } from '@tremor/react';
 import { DeleteAdminDialog } from './DeleteAdminDialog'
 import { EditAdminDialog } from './EditAdminDialog'
+import React from 'react'
 
 const data = [
     {

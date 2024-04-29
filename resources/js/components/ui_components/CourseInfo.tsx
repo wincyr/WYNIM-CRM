@@ -1,6 +1,6 @@
 import { BriefcaseBusiness } from 'lucide-react';
 import { FileCheck2 } from 'lucide-react';
-
+import React from 'react'
 function CourseInfo() {
     return (
         <div>

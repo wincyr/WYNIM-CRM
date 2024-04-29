@@ -3,7 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import { Routes } from "../../router";
 import { ShieldEllipsis } from 'lucide-react';
 import { Files } from 'lucide-react';
-
+import React from 'react'
 
 export default function DashboardLayout() {
     return (

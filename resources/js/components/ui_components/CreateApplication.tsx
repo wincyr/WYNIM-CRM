@@ -1,6 +1,7 @@
 import { X } from 'lucide-react';
 import { ClipboardPlus } from 'lucide-react';
 import UploadApplication from '../ui_components/UploadApplication';
+import React from 'react'
 
 function CreateApplication() {
     return (

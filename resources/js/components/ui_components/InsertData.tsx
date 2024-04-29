@@ -2,6 +2,7 @@ import { X } from 'lucide-react';
 import { ClipboardPlus } from 'lucide-react';
 import DocumentsInsert from './DocumentsInsert';
 import CreateApplication from './CreateApplication';
+import React from 'react'
 
 function InsertData() {
     return (

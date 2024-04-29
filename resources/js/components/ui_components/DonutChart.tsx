@@ -1,4 +1,5 @@
 import { DonutChart, Legend } from '@tremor/react';
+import React from 'react'
 
 const courses = [
   {

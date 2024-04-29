@@ -2,7 +2,7 @@ import {
   Select,
   SelectItem,
 } from '@tremor/react';
-
+import React from 'react'
 
 export function EducationSelect() {
   return (

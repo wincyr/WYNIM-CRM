@@ -1,6 +1,7 @@
 import { UserRoundPlus } from 'lucide-react';
 import StudentForm from '../ui_components/StudentForm'
 import { X } from 'lucide-react';
+import React from 'react'
 
 function Heading() {
 

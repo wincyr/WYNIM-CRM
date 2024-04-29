@@ -3,6 +3,7 @@ import { SchoolSelect } from './SchoolSelection'
 import { TextInput } from '@tremor/react';
 import { EducationSelect } from './EducationSelect';
 import { useState } from 'react';
+import React from 'react'
 
 
 function StudentForm() {

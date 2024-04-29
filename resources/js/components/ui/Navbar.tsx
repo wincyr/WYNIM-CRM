@@ -1,6 +1,7 @@
 import { Settings } from 'lucide-react';
 import { UserRoundCog } from 'lucide-react';
 import { LogOut } from 'lucide-react';
+import React from 'react'
 
 function Navbar() {
     return (

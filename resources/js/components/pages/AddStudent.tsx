@@ -1,5 +1,6 @@
 import Navbar from '../ui/Navbar'
 import StudentForm from '../ui_components/StudentForm'
+import React from 'react'
 
 function AddStudent() {
   return (

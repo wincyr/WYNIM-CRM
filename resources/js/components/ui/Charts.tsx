@@ -2,7 +2,7 @@ import { DonutChartCourses } from "../ui_components/DonutChart"
 import { BarChartData } from "../ui_components/BarChart";
 import { Card } from '@tremor/react';
 import { BarListGender } from "../ui_components/BarListGender";
-
+import React from 'react'
 
 function Charts() {
   return (
