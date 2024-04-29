@@ -1,15 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import Dashboard from './components/pages/Dashboard'
-import Login from './components/pages/Login'
-import Register from './components/pages/Register'
-import AddStudent from './components/pages/AddStudent'
+import { RouterProvider } from 'react-router-dom'
+import router from './router'
 
 function App() {
   return (
-   <div>
-      <Dashboard />
-   </div>
+    <RouterProvider router={router} />
   )
 }
 

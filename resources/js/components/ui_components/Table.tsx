@@ -14,7 +14,7 @@ const data = [
   {
     name: 'Viola Amherd',
     StudentID: 'Federal Councillor',
-    Course:'Pharmacy',
+    Course: 'Pharmacy',
     departement:
       'The Federal Department of Defence, Civil Protection and Sport (DDPS)',
     status: 'pending',
@@ -22,7 +22,7 @@ const data = [
   {
     name: 'Albert Rösti',
     StudentID: 'Federal Councillor',
-    Course:'Industrial Engineering',
+    Course: 'Industrial Engineering',
     departement:
       'University of Alberta',
     status: 'pending',
@@ -30,35 +30,35 @@ const data = [
   {
     name: 'Beat Jans',
     StudentID: 'Federal Councillor',
-    Course:'Computer Science',
+    Course: 'Computer Science',
     departement: 'The Federal Department of Justice and Police (FDJP)',
     status: 'pending',
   },
   {
     name: 'Ignazio Cassis',
     StudentID: 'Federal Councillor',
-    Course:'Computer Science',
+    Course: 'Computer Science',
     departement: 'The Federal Department of Foreign Affairs (FDFA)',
     status: 'pending',
   },
   {
     name: 'Karin Keller-Sutter',
     StudentID: 'Federal Councillor',
-    Course:'Architecture',
+    Course: 'Architecture',
     departement: 'The Federal Department of Finance (FDF)',
     status: 'pending',
   },
   {
     name: 'Guy Parmelin',
     StudentID: 'Federal Councillor',
-    Course:'Industrial Engineering',
+    Course: 'Industrial Engineering',
     departement: 'University of Waterloo',
     status: 'pending',
   },
   {
     name: 'Elisabeth Baume-Schneider',
     StudentID: 'Federal Councillor',
-    Course:'Mechanical Engineering',
+    Course: 'Mechanical Engineering',
     departement: 'The Federal Department of Home Affairs (FDHA)',
     status: 'pending',
   },
@@ -66,10 +66,10 @@ const data = [
 
 export function DataTable() {
   return (
-    <Card 
-        className="w-full max-h-full bg-base-100 shadow-md p-12 my-6" 
-        decoration="top"
-        decorationColor="indigo">
+    <Card
+      className="w-full max-h-full bg-base-100 shadow-md p-12 my-6"
+      decoration="top"
+      decorationColor="indigo">
       <h3 className="text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold"> Student Data </h3>
       <Table className="mt-5">
         <TableHead>
